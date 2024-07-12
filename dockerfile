@@ -8,4 +8,4 @@ COPY . /usr/share/nginx/html
 EXPOSE 80
 
 # Command untuk menjalankan Nginx di background saat container berjalan
-CMD ["nginx", "-g", "daemon off;"]  
+CMD ["nginx", "-g", "daemon off;"]
